@@ -1,18 +1,73 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>ILPSSM website</title>
-  <style>body{font-family:system-ui,Segoe UI,Roboto,Helvetica,Arial,sans-serif;padding:2rem;line-height:1.4;color:#111} header{margin-bottom:1rem} .note{color:#555;font-size:0.9rem}</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ILPSSM - Welcome</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: #333;
+        }
+        
+        .container {
+            text-align: center;
+            background: white;
+            padding: 60px 40px;
+            border-radius: 10px;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+            max-width: 600px;
+            width: 100%;
+            margin: 20px;
+        }
+        
+        h1 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            color: #667eea;
+        }
+        
+        p {
+            font-size: 18px;
+            color: #666;
+            line-height: 1.6;
+            margin-bottom: 30px;
+        }
+        
+        .button {
+            display: inline-block;
+            padding: 12px 30px;
+            background: #667eea;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background 0.3s ease;
+            margin: 10px;
+        }
+        
+        .button:hover {
+            background: #764ba2;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>ILPSSM.github.io</h1>
-  </header>
-  <main>
-    <p>This is a placeholder index.html so your GitHub Pages site will load.</p>
-    <p class="note">Edit <code>index.html</code> in the repository to change this page. After you push changes, wait ~1–2 minutes and visit <a href="https://ilpssm.github.io">https://ilpssm.github.io</a>.</p>
-  </main>
+    <div class="container">
+        <h1>Welcome to ILPSSM</h1>
+        <p>Your GitHub Pages site is live! 🚀</p>
+        <p>This is your custom homepage. Edit index.html to make it yours.</p>
+        <a href="https://github.com/ILPSSM/ILPSSM.github.io" class="button">View on GitHub</a>
+    </div>
 </body>
 </html>
